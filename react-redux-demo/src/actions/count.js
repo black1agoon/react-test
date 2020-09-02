@@ -40,6 +40,7 @@ function fetchPosts() {
         }
 }
 
+
 // 这里的方法返回一个函数进行异步操作
 export function fetchPostsIfNeeded() {
 

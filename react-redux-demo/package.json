@@ -4,7 +4,7 @@
   "repository": "reactjs/react-router-redux",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --history-api-fallback --no-info --open",
+    "start": "webpack-dev-server  --no-info --open",
     "build": "webpack"
   },
   "dependencies": {

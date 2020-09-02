@@ -8,7 +8,9 @@ module.exports = {
     filename: 'bundle.js'
   },
   devServer: {
-    port: 8066
+    port: 8066,
+    host: 'localhost',
+    disableHostCheck: true
   },
   module: {
     loaders: [
@@ -34,6 +36,7 @@ module.exports = {
 
 
 var src = path.join(__dirname, '..', '..', 'src')
+
 var fs = require('fs')
 if (fs.existsSync(src)) {
   module.exports.resolve = { alias: { 'react-router-redux': src } }
